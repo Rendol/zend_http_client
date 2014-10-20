@@ -1,5 +1,5 @@
 {
-    "name": "recensus/zend-http-client",
+    "name": "rendol/zend-http-client",
     "type": "library",
     "description": "Http client For PHP5.1 and above. Originally part of ZF1.11",
     "keywords": ["http"],
@@ -17,6 +17,6 @@
         "php": ">=5.1.0"
     },
     "autoload": {
-        "classmap": ["src/Zend"]
+        "psr-0": ["src/"]
     }
 }
